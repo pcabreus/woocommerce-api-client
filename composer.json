@@ -1,0 +1,22 @@
+{
+    "name": "pcabreus/woocommmerce-api-client",
+    "type": "library",
+    "keywords": ["symfony", "wordpress","woocommerce", "http-client", "api"],
+    "description": "Banggood Api Client",
+    "license": "MIT",
+    "require": {
+        "php": "^7.1.3",
+        "automattic/woocommerce": "dev-master"
+    },
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Pcabreus\\Banggood\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
